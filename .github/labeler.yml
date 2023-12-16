@@ -1,0 +1,6 @@
+'scope: prepare-commit-msg-context':
+  - all:
+      - changed-files:
+          - any-glob-to-any-file:
+              - 'src/prepare-commit-msg-context/**'
+              - 'test/prepare-commit-msg-context/**'
