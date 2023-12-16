@@ -11,6 +11,17 @@
         ]
       },
       "extensions": ["mads-hartmann.bash-ide-vscode"]
+    },
+    "codespaces": {
+      "settings": {
+        "json.schemas": [
+          {
+            "fileMatch": ["*/devcontainer-feature.json"],
+            "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainerFeature.schema.json"
+          }
+        ]
+      },
+      "extensions": ["mads-hartmann.bash-ide-vscode"]
     }
   },
   "features": {
