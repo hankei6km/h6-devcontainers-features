@@ -1,7 +1,7 @@
 {
   "name": "prepare-commit-msg-context",
   "id": "prepare-commit-msg-context",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Install a prepare-commit-msg hook script to /usr/local/share(the script writes the commit content as a comment).",
   "options": {},
   "installsAfter": []
