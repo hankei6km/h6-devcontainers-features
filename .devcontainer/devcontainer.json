@@ -29,8 +29,10 @@
     "ghcr.io/devcontainers/features/common-utils:2": {
       "username": "node"
     },
-    "ghcr.io/devcontainers/features/github-cli:1": {}
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/hankei6km/h6-devcontainers-features/prepare-commit-msg-context:latest": {}
   },
   "remoteUser": "node",
-  "updateContentCommand": "npm install -g @devcontainers/cli"
+  "updateContentCommand": "npm install -g @devcontainers/cli",
+  "postAttachCommand": "cp /usr/local/share/prepare-commit-msg-context/prepare-commit-msg .git/hooks/prepare-commit-msg"
 }
