@@ -19,7 +19,7 @@ jobs:
           publish-features: "true"
           base-path-to-features: "./src"
           generate-docs: "true"
-          
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -43,5 +43,5 @@ jobs:
           # Push
           if [ "$NO_UPDATES" != "true" ] ; then
               git push origin "$branch"
-              gh pr create --title "$message" --body "$message"
+              gh pr create --title "docs: $message" --body "$message"
           fi
