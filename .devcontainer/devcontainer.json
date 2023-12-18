@@ -10,7 +10,12 @@
           }
         ]
       },
-      "extensions": ["mads-hartmann.bash-ide-vscode"]
+      "extensions": [
+        // formatting
+        "esbenp.prettier-vscode",
+        // shell(run in .yaml)
+        "mads-hartmann.bash-ide-vscode"
+      ]
     },
     "codespaces": {
       "settings": {
@@ -21,7 +26,12 @@
           }
         ]
       },
-      "extensions": ["mads-hartmann.bash-ide-vscode"]
+      "extensions": [
+        // formatting
+        "esbenp.prettier-vscode",
+        // shell(run in .yaml)
+        "mads-hartmann.bash-ide-vscode"
+      ]
     }
   },
   "features": {
