@@ -13,6 +13,9 @@
       "extensions": [
         // formatting
         "esbenp.prettier-vscode",
+        // pull request
+        "GitHub.vscode-pull-request-github",
+        "github.vscode-github-actions",
         // shell(run in .yaml)
         "mads-hartmann.bash-ide-vscode"
       ]
@@ -29,6 +32,9 @@
       "extensions": [
         // formatting
         "esbenp.prettier-vscode",
+        // pull request
+        "GitHub.vscode-pull-request-github",
+        "github.vscode-github-actions",
         // shell(run in .yaml)
         "mads-hartmann.bash-ide-vscode"
       ]
@@ -40,7 +46,8 @@
       "username": "node"
     },
     "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/hankei6km/h6-devcontainers-features/prepare-commit-msg-context:latest": {}
+    "ghcr.io/hankei6km/h6-devcontainers-features/prepare-commit-msg-context:latest": {},
+    "ghcr.io/devcontainers-contrib/features/actionlint:1": {}
   },
   "remoteUser": "node",
   "updateContentCommand": "npm install -g @devcontainers/cli",
