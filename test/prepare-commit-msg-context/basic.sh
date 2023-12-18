@@ -4,6 +4,7 @@ set -e
 
 # Optional: Import test library bundled with the devcontainer CLI
 # Provides the 'check' and 'reportResults' commands.
+# shellcheck source=/dev/null
 source dev-container-features-test-lib
 
 # Check for installed features
