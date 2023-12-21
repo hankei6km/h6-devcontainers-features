@@ -15,7 +15,7 @@ Install a prepare-commit-msg hook script to /usr/local/share(the script writes t
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-
+| format | diff-history: diff + history. diff: diff only. | string | diff-history |
 
 ## Install as a git hook
 
