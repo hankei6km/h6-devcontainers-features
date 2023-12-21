@@ -64,10 +64,12 @@
       "username": "node"
     },
     "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/hankei6km/h6-devcontainers-features/prepare-commit-msg-context:latest": {},
+    "ghcr.io/hankei6km/h6-devcontainers-features/prepare-commit-msg-context:latest": {
+      "format": "diff"
+    },
     "ghcr.io/devcontainers-contrib/features/actionlint:1": {}
   },
   "remoteUser": "node",
   "updateContentCommand": "npm install -g @devcontainers/cli",
-  "postAttachCommand": "cp /usr/local/share/prepare-commit-msg-context/prepare-commit-msg .git/hooks/prepare-commit-msg"
+  "postCreateCommand": "cp /usr/local/share/prepare-commit-msg-context/prepare-commit-msg .git/hooks/prepare-commit-msg"
 }
