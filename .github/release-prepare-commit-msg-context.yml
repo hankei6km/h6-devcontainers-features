@@ -1,0 +1,21 @@
+changelog:
+  categories:
+    - title: Breaking change
+      labels:
+        - "scope: prepare-commit-msg-context"
+        - "sem-pr: breaking change"
+    - title: Features
+      labels:
+        - "scope: prepare-commit-msg-context"
+        - "sem-pr: feat"
+    - title: Bug Fixes
+      labels:
+        - "scope: prepare-commit-msg-context"
+        - "sem-pr: fix"
+    - title: Other Changes
+      labels:
+        - "scope: prepare-commit-msg-context"
+        - "*"
+  exclude:
+    authors:
+      - dependabot
