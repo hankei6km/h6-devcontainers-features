@@ -1,12 +1,15 @@
 {
   "name": "prepare-commit-msg-context",
   "id": "prepare-commit-msg-context",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Install a prepare-commit-msg hook script to /usr/local/share(the script writes the commit content as a comment).",
   "options": {
     "format": {
       "type": "string",
-      "enum": ["diff-history", "diff"],
+      "enum": [
+        "diff-history",
+        "diff"
+      ],
       "default": "diff-history",
       "description": "diff-history: diff + history. diff: diff only."
     }
