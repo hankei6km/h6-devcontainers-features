@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+COMMIT_MSG_FILE="${1}"
+COMMIT_SOURCE="${2}"
+SHA1="${3}"
+
+case "${COMMIT_SOURCE},${SHA1}" in
+    ",")
+        echo "" >> "${COMMIT_MSG_FILE}"
+        git diff --cached | sed 's/^/# /' >> "${COMMIT_MSG_FILE}" ;;
+    *) ;;
+esac

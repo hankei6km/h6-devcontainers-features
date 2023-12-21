@@ -11,5 +11,20 @@
       "prepare-commit-msg-context": {}
     },
     "remoteUser": "node"
+  },
+  "format-diff": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "ghcr.io/devcontainers/features/common-utils:1": {
+        "installZsh": false,
+        "installOhMyZsh": false,
+        "upgradePackages": false,
+        "username": "node"
+      },
+      "prepare-commit-msg-context": {
+        "format": "diff"
+      }
+    },
+    "remoteUser": "node"
   }
 }
