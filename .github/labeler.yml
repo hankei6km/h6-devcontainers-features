@@ -4,9 +4,9 @@
           - any-glob-to-any-file:
               - "src/prepare-commit-msg-context/**"
               - "test/prepare-commit-msg-context/**"
-"scope: semver-tool-":
+"scope: semver-tool":
   - all:
       - changed-files:
           - any-glob-to-any-file:
-              - "src/semver-tool-/**"
-              - "test/semver-tool-/**"
+              - "src/semver-tool/**"
+              - "test/semver-tool/**"
