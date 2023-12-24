@@ -1,6 +1,12 @@
-'scope: prepare-commit-msg-context':
+"scope: prepare-commit-msg-context":
   - all:
       - changed-files:
           - any-glob-to-any-file:
-              - 'src/prepare-commit-msg-context/**'
-              - 'test/prepare-commit-msg-context/**'
+              - "src/prepare-commit-msg-context/**"
+              - "test/prepare-commit-msg-context/**"
+"scope: semver-tool-":
+  - all:
+      - changed-files:
+          - any-glob-to-any-file:
+              - "src/semver-tool-/**"
+              - "test/semver-tool-/**"

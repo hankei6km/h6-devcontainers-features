@@ -16,6 +16,7 @@ LABELS_TEXT_COLOR_DESCRIPTIOM=(
     "sem-pr: revert,#d73a4a,Reverts previous changes"
     "sem-pr: breaking change,#e99695,This change may affect existing functionality or APIs"
     "scope: prepare-commit-msg-context,#C2E0C6,prepare-commit-msg-context-related changes"
+    "scope: semver-tool,#FEF2C0,semver-tool changes"
 )
 
 for label_color_description in "${LABELS_TEXT_COLOR_DESCRIPTIOM[@]}"; do
