@@ -67,6 +67,7 @@
     "ghcr.io/hankei6km/h6-devcontainers-features/prepare-commit-msg-context:latest": {
       "format": "diff"
     },
+    "ghcr.io/hankei6km/h6-devcontainers-features/semver-tool:latest": {},
     "ghcr.io/devcontainers-contrib/features/actionlint:1": {}
   },
   "remoteUser": "node",
