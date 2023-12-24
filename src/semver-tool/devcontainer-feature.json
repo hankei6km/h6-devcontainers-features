@@ -1,7 +1,7 @@
 {
   "name": "semver-tool",
   "id": "semver-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Install the semver-tool(https://github.com/fsaintjacques/semver-tool)",
   "options": {
     "ref": {
@@ -10,5 +10,7 @@
       "description": "Select version of the semver-tool, if not latest."
     }
   },
-  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
 }
