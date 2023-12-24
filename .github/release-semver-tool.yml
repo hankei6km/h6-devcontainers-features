@@ -1,0 +1,25 @@
+changelog:
+  categories:
+    # exlclude PRs without the label "scope: semver-tool" from the changelog.
+    # this category will be excluded from the changelog by text replacement.
+    - title: Exclude from changelog
+      labels:
+        - "*"
+      exclude:
+        labels:
+          - "scope: semver-tool"
+    - title: Breaking change
+      labels:
+        - "sem-pr: breaking change"
+    - title: Features
+      labels:
+        - "sem-pr: feat"
+    - title: Bug Fixes
+      labels:
+        - "sem-pr: fix"
+    - title: Other Changes
+      labels:
+        - "*"
+  exclude:
+    authors:
+      - dependabot

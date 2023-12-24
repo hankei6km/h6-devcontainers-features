@@ -14,6 +14,7 @@ jobs:
       matrix:
         features:
           - prepare-commit-msg-context
+          - semver-tool
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -34,6 +35,7 @@ jobs:
       matrix:
         features:
           - prepare-commit-msg-context
+          - semver-tool
     steps:
       - uses: actions/checkout@v4
 
