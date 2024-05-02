@@ -2,8 +2,6 @@
 
 TARGET_PACKAGE="@google/clasp"
 TARGET_VERSION=${VERSION:-"latest"}
-TARGET_TYPES_PACKAGE="@types/google-apps-script"
-TARGET_TYPES_VERSION=${TYPES:-"latest"}
 
 set -e
 
@@ -21,10 +19,6 @@ install_packages() {
 
   echo "Installing npm package: ${TARGET_PACKAGE}@${TARGET_VERSION}"
   npm install --global --omit=dev --no-progress --cache "${TEMP_CACHE}" "${TARGET_PACKAGE}@${TARGET_VERSION}"
-  if test "${TARGET_TYPES_PACKAGE}" != ""; then
-    echo "Installing npm package: ${TARGET_TYPES_PACKAGE}@${TARGET_TYPES_VERSION}"
-    npm install --global --omit=dev --no-progress --cache "${TEMP_CACHE}" "${TARGET_TYPES_PACKAGE}@${TARGET_TYPES_VERSION}"
-  fi
 }
 
 # Check if npm is installed

@@ -2,19 +2,13 @@
   "name": "@google/clasp (via npm)",
   "id": "google-clasp",
   "version": "1.0.0",
-  "description": "Install the @google/clasp with @types/google-apps-script package via NPM registry",
+  "description": "Install the @google/clasp package via NPM registry",
   "options": {
     "version": {
       "type": "string",
       "proposals": ["latest"],
       "default": "latest",
       "description": "Select or enter a @google/clasp version."
-    },
-    "types": {
-      "type": "string",
-      "proposals": ["latest"],
-      "default": "latest",
-      "description": "Select or enter a @types/google-apps-script version(pass blank to not install)."
     }
   },
   "installsAfter": [

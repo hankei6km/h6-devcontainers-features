@@ -14,7 +14,6 @@ source dev-container-features-test-lib
 # The 'check' command comes from the dev-container-features-test-lib.
 
 check "Check @google/clasp is installed" clasp --version
-check "Check types(@types/google-apps-script) is installed" npm list --global --depth 0 | grep -q "@types/google-apps-script@"
 
 # Report result
 # If any of the checks above exited with a non-zero exit code, the test will fail.
