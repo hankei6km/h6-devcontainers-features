@@ -10,3 +10,9 @@
           - any-glob-to-any-file:
               - "src/semver-tool/**"
               - "test/semver-tool/**"
+"scope: google-clasp":
+  - all:
+      - changed-files:
+          - any-glob-to-any-file:
+              - "src/google-clasp/**"
+              - "test/google-clasp/**"
