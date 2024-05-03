@@ -1,0 +1,18 @@
+{
+  "v2.4.0": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "ghcr.io/devcontainers/features/common-utils:1": {
+        "installZsh": false,
+        "installOhMyZsh": false,
+        "upgradePackages": false,
+        "username": "node"
+      },
+      "ghcr.io/devcontainers/features/node:1": {},
+      "google-clasp": {
+        "version": "2.4.0"
+      }
+    },
+    "remoteUser": "node"
+  }
+}
