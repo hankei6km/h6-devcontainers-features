@@ -1,76 +1,35 @@
 {
-  "dockerFile": "Dockerfile",
+  "image": "ghcr.io/hankei6km/h6-dev-containers/images:dind_latest",
   "customizations": {
     "vscode": {
       "settings": {
         "json.schemas": [
           {
-            "fileMatch": ["*/devcontainer-feature.json"],
+            "fileMatch": [
+              "*/devcontainer-feature.json"
+            ],
             "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainerFeature.schema.json"
           }
-        ],
-        "[json]": {
-          "editor.defaultFormatter": "esbenp.prettier-vscode"
-        },
-        "[jsonc]": {
-          "editor.defaultFormatter": "esbenp.prettier-vscode"
-        },
-        "[yaml]": {
-          "editor.defaultFormatter": "esbenp.prettier-vscode"
-        }
+        ]
       },
-      "extensions": [
-        // formatting
-        "esbenp.prettier-vscode",
-        // pull request
-        "GitHub.vscode-pull-request-github",
-        "github.vscode-github-actions",
-        // shell(run in .yaml)
-        "mads-hartmann.bash-ide-vscode"
-      ]
+      "extensions": []
     },
     "codespaces": {
       "settings": {
         "json.schemas": [
           {
-            "fileMatch": ["*/devcontainer-feature.json"],
+            "fileMatch": [
+              "*/devcontainer-feature.json"
+            ],
             "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainerFeature.schema.json"
           }
-        ],
-        "[json]": {
-          "editor.defaultFormatter": "esbenp.prettier-vscode"
-        },
-        "[jsonc]": {
-          "editor.defaultFormatter": "esbenp.prettier-vscode"
-        },
-        "[yaml]": {
-          "editor.defaultFormatter": "esbenp.prettier-vscode"
-        }
+        ]
       },
-      "extensions": [
-        // formatting
-        "esbenp.prettier-vscode",
-        // pull request
-        "GitHub.vscode-pull-request-github",
-        "github.vscode-github-actions",
-        // shell(run in .yaml)
-        "mads-hartmann.bash-ide-vscode"
-      ]
+      "extensions": []
     }
   },
   "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
-    "ghcr.io/devcontainers/features/common-utils:2": {
-      "username": "node"
-    },
-    "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/hankei6km/h6-devcontainers-features/prepare-commit-msg-context:latest": {
-      "format": "diff"
-    },
-    "ghcr.io/hankei6km/h6-devcontainers-features/semver-tool:latest": {},
-    "ghcr.io/devcontainers-contrib/features/actionlint:1": {}
-  },
-  "remoteUser": "node",
-  "updateContentCommand": "npm install -g @devcontainers/cli",
-  "postCreateCommand": "cp /usr/local/share/prepare-commit-msg-context/prepare-commit-msg .git/hooks/prepare-commit-msg"
+    "ghcr.io/devcontainers-extra/features/devcontainers-cli:1": {},
+    "ghcr.io/hankei6km/h6-devcontainers-features/semver-tool:latest": {}
+  }
 }
