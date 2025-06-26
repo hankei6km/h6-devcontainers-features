@@ -18,6 +18,7 @@ LABELS_TEXT_COLOR_DESCRIPTIOM=(
     "scope: prepare-commit-msg-context,#C2E0C6,prepare-commit-msg-context-related changes"
     "scope: semver-tool,#FEF2C0,semver-tool changes"
     "scope: google-clasp,#63559F,clasp changes"
+    "scope: google-gemini-cli,#070867,gemini-cli changes"
 )
 
 for label_color_description in "${LABELS_TEXT_COLOR_DESCRIPTIOM[@]}"; do
