@@ -25,7 +25,7 @@ install_packages() {
 if ! command_exists npm; then
   echo -e 'Feature requires npm to be installed. Please use a node-based image like:'
   # shellcheck disable=SC2016
-  echo -e ' - mcr.microsoft.com/vscode/devcontainers/typescript-node:${VARIANT}'
+  echo -e ' - mcr.microsoft.com/devcontainers/javascript-node:${VARIANT}'
   echo -e 'You can also add as feature like:'
   echo -e ' - "ghcr.io/devcontainers/features/node:1": {}'
 fi
