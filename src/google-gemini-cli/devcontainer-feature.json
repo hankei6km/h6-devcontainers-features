@@ -1,7 +1,7 @@
 {
   "name": "@google/gemini-cli (via npm)",
   "id": "google-gemini-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Install the @google/gemini-cli package via NPM registry",
   "options": {
     "version": {
