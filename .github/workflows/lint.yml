@@ -16,6 +16,7 @@ jobs:
           - prepare-commit-msg-context
           - semver-tool
           - google-clasp
+          - google-gemini-cli
     steps:
       - uses: actions/checkout@v4
 

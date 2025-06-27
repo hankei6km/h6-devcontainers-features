@@ -1,0 +1,20 @@
+{
+  "name": "@google/gemini-cli (via npm)",
+  "id": "google-gemini-cli",
+  "version": "1.0.0",
+  "description": "Install the @google/gemini-cli package via NPM registry",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": [
+        "latest"
+      ],
+      "default": "latest",
+      "description": "Select or enter a @google/gemini-cli version."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils",
+    "ghcr.io/devcontainers/features/node"
+  ]
+}

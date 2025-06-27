@@ -16,3 +16,9 @@
           - any-glob-to-any-file:
               - "src/google-clasp/**"
               - "test/google-clasp/**"
+"scope: google-gemini-cli":
+  - all:
+      - changed-files:
+          - any-glob-to-any-file:
+              - "src/google-gemini-cli/**"
+              - "test/google-gemini-cli/**"
