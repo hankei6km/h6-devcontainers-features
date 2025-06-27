@@ -1,7 +1,7 @@
 {
   "name": "@google/clasp (via npm)",
   "id": "google-clasp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Install the @google/clasp package via NPM registry",
   "options": {
     "version": {
